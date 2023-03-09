@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ingredients_ingredients",
+  "info": {
+    "displayName": "ingredients"
+  },
+  "options": {},
+  "attributes": {
+    "ingredient": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "mg",
+        "g",
+        "kg",
+        "ml",
+        "cl",
+        "l",
+        "pièce(s)",
+        "pincée(s)",
+        "càs",
+        "càc"
+      ]
+    }
+  }
+}
